@@ -9,6 +9,6 @@ import java.util.List;
 public class InitialService {
 
     public List<Initial> listAll() {
-        return List.of(new Initial("Elvis", 2));
+        return List.of(new Initial("Elvis", 2), new Initial("Eduardo", 25));
     }
 }
